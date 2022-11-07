@@ -1,0 +1,1 @@
+export type PromtType = 'input' | 'number' | 'password';
