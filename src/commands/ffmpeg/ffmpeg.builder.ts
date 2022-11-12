@@ -16,7 +16,7 @@ export class FfmpegBuilder {
 		return this;
 	}
 
-	output(outputPath: string) {
+	output(outputPath: string): string[] {
 		if (!this.inputPath) {
 			throw new Error('Не задан параметр input');
 		}
